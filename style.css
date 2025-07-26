@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20rem;    
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+}
