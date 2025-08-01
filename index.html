@@ -1,42 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ecommerce</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ecommerce</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="main-container">
     <header>
       <div class="nav">
-        <img src="images/brand/logo-colored.svg" alt="" />
+        <img src="images/brand/logo-colored.svg" alt="Logo" />
 
-        <div>
-          <input type="text" placeholder="Search" name="" id="" />
-          <select name="" id="">
+        <div class="search-bar">
+          <input type="text" placeholder="Search" />
+          <select>
             <option value="">All Category</option>
           </select>
           <button>Search</button>
         </div>
-        <div class="icons" >
+
+        <div class="icons">
           <div>
-            <img src="images/icons/profile.svg" alt="" />
+            <img src="images/icons/profile.svg" alt="Profile" />
             <p>Profile</p>
           </div>
           <div>
-            <img src="images/icons/message.svg" alt="" />
+            <img src="images/icons/message.svg" alt="Message" />
             <p>Message</p>
           </div>
           <div>
-            <img src="images/icons/orders.svg" alt="" />
+            <img src="images/icons/orders.svg" alt="Orders" />
             <p>Orders</p>
           </div>
           <div>
-            <img src="images/icons/cart.svg" alt="" />
+            <img src="images/icons/cart.svg" alt="Cart" />
             <p>My Cart</p>
           </div>
         </div>
       </div>
+
+      <div class="top-bar">
+        <div class="left-menu">
+          <span>☰ All category</span>
+          <a href="#">Hot offers</a>
+          <a href="#">Gift boxes</a>
+          <a href="#">Projects</a>
+          <a href="#">Menu Item</a>
+          <a href="#">Help</a>
+        </div>
+        <div class="right-menu">
+          <a href="#">English, USD</a>
+          <a href="#">Ship to <img src="images/icons/flags.svg" alt="Flag" /></a>
+        </div>
+      </div>
     </header>
-  </body>
+
+    <div class="trending-section">
+      <div class="category-sidebar">
+        <ul>
+          <li>Automobiles</li>
+          <li>Clothes and wear</li>
+          <li>Home Interior</li>
+          <li>Computer and Tech</li>
+          <li>Tools, Equipment</li>
+          <li>Sports and outdoor</li>
+          <li>Animal and Pets</li>
+          <li>Machinery Tools</li>
+          <li>More Category</li>
+        </ul>
+      </div>
+
+      <div class="trending-banner">
+        <div class="trending-info">
+          <h3>Latest trending <br /> Electronics Items</h3>
+          <button>Learn More</button>
+        </div>
+        <img src="images/photos/banner.jpg" alt="Banner" />
+      </div>
+
+      <div class="right-wrapper">
+        <div class="right-trending-section">
+          <h4>Hi, User<br />Let's Get Started</h4>
+          <button>Join now</button>
+          <button>Sign in</button>
+        </div>
+        <div class="right-discount-section">
+          Get US $10 offers with a new supplier
+        </div>
+        <div class="Quote-section">
+          Send quotes with supplier preferences
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="newsletter">
+        <h3>Subscribe On Our Newsletter</h3>
+        <p>Get daily news on upcoming offers from many suppliers all over the world</p>
+        <form>
+          <input type="email" placeholder="Email" />
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+
+      <div class="footer-main">
+        <div class="footer-brand">
+          <img src="images/Brand/logo-colored.svg" alt="Brand" />
+          <p>Best information about the company goes here but now lorem ipsum is</p>
+          <div class="social-icons">
+            <a href="#"><img src="images/icons/facebook.svg" alt="Facebook" /></a>
+            <a href="#"><img src="images/icons/twitter.svg" alt="Twitter" /></a>
+            <a href="#"><img src="images/icons/linkedin.svg" alt="LinkedIn" /></a>
+            <a href="#"><img src="images/icons/instagram.svg" alt="Instagram" /></a>
+            <a href="#"><img src="images/icons/youtube.svg" alt="YouTube" /></a>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <div>
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Find store</a>
+            <a href="#">Categories</a>
+            <a href="#">Blogs</a>
+          </div>
+          <div>
+            <h4>Partnership</h4>
+            <a href="#">About Us</a>
+            <a href="#">Find store</a>
+            <a href="#">Categories</a>
+            <a href="#">Blogs</a>
+          </div>
+          <div>
+            <h4>Information</h4>
+            <a href="#">About Us</a>
+            <a href="#">Find store</a>
+            <a href="#">Categories</a>
+            <a href="#">Blogs</a>
+          </div>
+          <div>
+            <h4>For users</h4>
+            <a href="#">About Us</a>
+            <a href="#">Find store</a>
+            <a href="#">Categories</a>
+            <a href="#">Blogs</a>
+          </div>
+          <div class="stores">
+            <h4>Get app</h4>
+            <img src="images/icons/app-store.svg" alt="App Store" />
+            <img src="images/icons/google-play.svg" alt="Google Play" />
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>@ 2023 Ecommerce.</p>
+        <div class="lang-select">
+          <img src="images/icons/usa-flag.svg" alt="USA Flag" />
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
 </html>
