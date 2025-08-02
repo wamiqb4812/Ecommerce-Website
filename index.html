@@ -1,40 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ecommerce</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <div class="main-container">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecommerce</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-container">
     <header>
       <div class="nav">
-        <img src="images/brand/logo-colored.svg" alt="Logo" />
+        <img src="images/brand/logo-colored.svg" alt="" />
 
         <div class="search-bar">
-          <input type="text" placeholder="Search" />
-          <select>
+          <input type="text" placeholder="Search" name="" id="" />
+          <select name="" id="">
             <option value="">All Category</option>
           </select>
           <button>Search</button>
         </div>
-
         <div class="icons">
           <div>
-            <img src="images/icons/profile.svg" alt="Profile" />
+            <img src="images/icons/profile.svg" alt="" />
             <p>Profile</p>
           </div>
           <div>
-            <img src="images/icons/message.svg" alt="Message" />
+            <img src="images/icons/message.svg" alt="" />
             <p>Message</p>
           </div>
           <div>
-            <img src="images/icons/orders.svg" alt="Orders" />
+            <img src="images/icons/orders.svg" alt="" />
             <p>Orders</p>
           </div>
           <div>
-            <img src="images/icons/cart.svg" alt="Cart" />
+            <img src="images/icons/cart.svg" alt="" />
             <p>My Cart</p>
           </div>
         </div>
@@ -47,76 +46,457 @@
           <a href="#">Gift boxes</a>
           <a href="#">Projects</a>
           <a href="#">Menu Item</a>
-          <a href="#">Help</a>
+          <a href="#">Help </a>
         </div>
         <div class="right-menu">
-          <a href="#">English, USD</a>
-          <a href="#">Ship to <img src="images/icons/flags.svg" alt="Flag" /></a>
+          <a href="#">English, USD </a>
+          <a href="#"
+            >Ship to <img src="images/icons/flags.svg" alt="Flag"
+          /></a>
         </div>
       </div>
     </header>
-
     <div class="trending-section">
-      <div class="category-sidebar">
-        <ul>
-          <li>Automobiles</li>
-          <li>Clothes and wear</li>
-          <li>Home Interior</li>
-          <li>Computer and Tech</li>
-          <li>Tools, Equipment</li>
-          <li>Sports and outdoor</li>
-          <li>Animal and Pets</li>
-          <li>Machinery Tools</li>
-          <li>More Category</li>
-        </ul>
-      </div>
+  <!-- LEFT: Sidebar -->
+  <div class="category-sidebar">
+    <ul>
+      <li>Automobiles</li>
+      <li>Clothes and wear</li>
+      <li>Home Interior</li>
+      <li>Computer and Tech</li>
+      <li>Tools,Equipment</li>
+      <li>Sports and outdoor</li>
+      <li>Animal and Pets</li>
+      <li>Machinery Tools</li>
+      <li>More Category</li>
+    </ul>
+  </div>
 
-      <div class="trending-banner">
-        <div class="trending-info">
-          <h3>Latest trending <br /> Electronics Items</h3>
-          <button>Learn More</button>
-        </div>
-        <img src="images/photos/banner.jpg" alt="Banner" />
-      </div>
+  <!-- CENTER: Banner -->
+  <div class="trending-banner">
+    <img src="images/photos/banner.jpg" alt="Banner" />
+    <div class="trending-info">
+      <h3>Latest trending <br/> Electronics Items</h3>
+      <button>Learn More</button>
+    </div>
+  </div>
 
-      <div class="right-wrapper">
-        <div class="right-trending-section">
-          <h4>Hi, User<br />Let's Get Started</h4>
-          <button>Join now</button>
-          <button>Sign in</button>
+  <div class="right-wrapper">
+    <div class="right-trending-section">
+      <h4>Hi, User<br/> Let's Get Started</h4>
+      <button>Join now</button>
+      <button>Sign in</button>
+    </div>
+    <div class="right-discount-section">
+      Get US $10 offers with a new supplier
+    </div>
+    <div class="Quote-section">
+      Send quotes with supplier preferences
+    </div>
+  </div>
+</div>
+
+   
+  <div class="deals-section">
+  
+
+  <div class="deal-products">
+    
+    <div class="deal-card timer-card">
+      <h3>Deals and offers</h3>
+      
+      <p class="timer-title">Deals end in:</p>
+      <div class="timer-values">
+        <span>04</span> :
+        <span>13</span> :
+        <span>34</span> :
+        <span>56</span>
+      </div>
+    </div>
+
+    <div class="deal-card">
+      <img src="images/photos/watch.svg" alt="Smart Watch">
+      <p>Smart watches</p>
+      <span>-25%</span>
+    </div>
+    <div class="deal-card">
+      <img src="images/photos/laptops.svg" alt="Laptop">
+      <p>Laptops</p>
+      <span>-15%</span>
+    </div>
+    <div class="deal-card">
+      <img src="images/photos/camera.svg" alt="GoPro">
+      <p>GoPro cameras</p>
+      <span>-40%</span>
+    </div>
+    <div class="deal-card">
+      <img src="images/photos/headphone.svg" alt="Headphones">
+      <p>Headphones</p>
+      <span>-23%</span>
+    </div>
+    <div class="deal-card">
+      <img src="images/photos/phone.svg" alt="Camera">
+      <p>Canon cameras</p>
+      <span>-29%</span>
+    </div>
+  </div>
+</div>
+ 
+<section class="home-outdoor">
+  <div class="left-box">
+    <img src="images/photos/home-decor.svg" alt="Home and outdoor background">
+    
+  </div>
+
+  <div class="product-grid">
+    <div class="product">
+      <img src="images/photos/sofa-chair.svg" alt="Soft chair">
+      <h4>Soft chairs</h4>
+      <p>From USD 19</p>
+    </div>
+    <div class="product">
+      <img src="images/photos/lamp.svg" alt="Sofa and chair">
+      <h4>Sofa & chair</h4>
+      <p>From USD 19</p>
+    </div>
+    <div class="product">
+      <img src="images/photos/mattress.svg" alt="Kitchen dishes">
+      <h4>Kitchen dishes</h4>
+      <p>From USD 19</p>
+    </div>
+    <div class="product">
+      <img src="images/photos/pot.svg" alt="Smart watches">
+      <h4>Smart watches</h4>
+      <p>From USD 19</p>
+    </div>
+    <div class="product">
+      <img src="images/photos/mixer.svg" alt="Kitchen mixer">
+      <h4>Kitchen mixer</h4>
+      <p>From USD 100</p>
+    </div>
+    <div class="product">
+      <img src="images/photos/blenders.svg" alt="Blenders">
+      <h4>Blenders</h4>
+      <p>From USD 39</p>
+    </div>
+    <div class="product">
+      <img src="images/photos/appliances.svg" alt="Home appliance">
+      <h4>Home appliance</h4>
+      <p>From USD 19</p>
+    </div>
+    <div class="product">
+      <img src="images/photos/plant.svg" alt="Coffee maker">
+      <h4>Coffee maker</h4>
+      <p>From USD 10</p>
+    </div>
+  </div>
+</section>
+<section class="home-outdoor">
+  <div class="left-box">
+    <img src="images/photos/consumer.svg" alt="Home and outdoor background">
+    
+  </div>
+
+  <div class="product-grid">
+    <div class="product">
+      <img src="images/photos/watch.svg" alt="Smart watches">
+      <h4>Smart watches</h4>
+      <p>From USD 19</p>
+    </div>
+    <div class="product">
+      <img src="images/photos/camera.svg" alt="Cameras">
+      <h4>Cameras</h4>
+      <p>From USD 89</p>
+    </div>
+    <div class="product">
+      <img src="images/photos/h1.svg" alt="Headphones">
+      <h4>Headphones</h4>
+      <p>From USD 10</p>
+    </div>
+    <div class="product">
+      <img src="images/photos/thermos.svg" alt="Smart watches">
+      <h4>Smart watches</h4>
+      <p>From USD 90</p>
+    </div>
+    <div class="product">
+      <img src="images/photos/headphone.svg" alt="Gaming set">
+      <h4>Gaming set</h4>
+      <p>From USD 35</p>
+    </div>
+    <div class="product">
+      <img src="images/photos/laptops.svg" alt="Laptops & PC">
+      <h4>Laptops & PC</h4>
+      <p>From USD 340</p>
+    </div>
+    <div class="product">
+      <img src="images/photos/android-phone.svg" alt="Smartphones">
+      <h4>Smartphones</h4>
+      <p>From USD 19</p>
+    </div>
+    <div class="product">
+      <img src="images/photos/thermos.svg" alt="Electric kattle">
+      <h4>Electric Kattle</h4>
+      <p>From USD 240</p>
+    </div>
+  </div>
+
+  
+</section>
+<section class="quote-section">
+  <div class="quote-banner">
+    <img src="images/photos/quotes.svg" alt="Quote Background" class="quote-image" />
+    <div class="quote-overlay">
+      <div class="quote-text">
+        <h2>An easy way to send requests to all suppliers</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, autem!</p>
+      </div>
+      <div class="quote-form">
+        <h3>Send quote to suppliers</h3>
+        <input type="text" placeholder="What item you need?" />
+        <input type="text" placeholder="Type more details" />
+        <div class="form-group">
+          <input type="number" placeholder="Quantity" />
+          <select>
+            <option>pcs</option>
+            <option>kg</option>
+            <option>liters</option>
+          </select>
         </div>
-        <div class="right-discount-section">
-          Get US $10 offers with a new supplier
-        </div>
-        <div class="Quote-section">
-          Send quotes with supplier preferences
+        <button>Send inquiry</button>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="recommended-section">
+  <h2>Recommended items</h2>
+  <div class="recommended-grid">
+    <div class="recommended-card">
+      <img src="images/photos/shirt.svg" alt="T-shirt" />
+      <h3>$10.30</h3>
+      <p>T-shirts with multiple colors, for men</p>
+    </div>
+    <div class="recommended-card">
+      <img src="images/photos/jacket.svg" alt="Jacket" />
+      <h3>$10.30</h3>
+      <p>Jeans shorts for men blue color</p>
+    </div>
+    <div class="recommended-card">
+      <img src="images/photos/coat.svg" alt="Coat" />
+      <h3>$12.50</h3>
+      <p>Brown winter coat medium size</p>
+    </div>
+    <div class="recommended-card">
+      <img src="images/photos/wallet.svg" alt="Wallet" />
+      <h3>$34.00</h3>
+      <p>Jeans bag for travel for men</p>
+    </div>
+    <div class="recommended-card">
+      <img src="images/photos/bag.svg" alt="Backpack" />
+      <h3>$99.00</h3>
+      <p>Leather wallet</p>
+    </div>
+    <div class="recommended-card">
+      <img src="images/photos/camera.svg" alt="Camera" />
+      <h3>$9.99</h3>
+      <p>Canon camera black, 100x zoom</p>
+    </div>
+    <div class="recommended-card">
+      <img src="images/photos/h1.svg" alt="Headset" />
+      <h3>$8.99</h3>
+      <p>Headset for gaming with mic</p>
+    </div>
+    <div class="recommended-card">
+      <img src="images/photos/watch.svg" alt="Smartwatch" />
+      <h3>$10.30</h3>
+      <p>Smartwatch silver color modern</p>
+    </div>
+    <div class="recommended-card">
+      <img src="images/photos/pot.svg" alt="Pot" />
+      <h3>$10.30</h3>
+      <p>Blue wallet for men leather metafrial</p>
+    </div>
+    <div class="recommended-card">
+      <img src="images/photos/thermos.svg" alt="Kettle" />
+      <h3>$80.95</h3>
+      <p>Jeans bag for travel for men</p>
+    </div>
+  </div>
+</section>
+<section class="extra-services">
+  <h2>Our extra services</h2>
+  <div class="services-grid">
+
+    <div class="service-card">
+      <img src="images/photos/carton.svg" alt="Warehouse" />
+      <div class="service-info">
+        <h4>Source from Industry Hubs</h4>
+        <div class="service-icon">
+          <img src="images/icons/search.svg" alt="Search Icon" />
         </div>
       </div>
     </div>
 
+    <div class="service-card">
+      <img src="images/photos/rainbow.svg" alt="Customize" />
+      <div class="service-info">
+        <h4>Customize Your Products</h4>
+        <div class="service-icon">
+          <img src="images/icons/box.svg" alt="Box Icon" />
+        </div>
+      </div>
+    </div>
+
+    <div class="service-card">
+      <img src="images/photos/plane.svg" alt="Shipping" />
+      <div class="service-info">
+        <h4>Fast, reliable shipping<br />by ocean or air</h4>
+        <div class="service-icon">
+          <img src="images/icons/planes.svg" alt="Plane Icon" />
+        </div>
+      </div>
+    </div>
+
+    <div class="service-card">
+      <img src="images/photos/worker.svg" alt="Inspection" />
+      <div class="service-info">
+        <h4>Product monitoring<br />and inspection</h4>
+        <div class="service-icon">
+          <img src="images/icons/shield.svg" alt="Shield Icon" />
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<section class="suppliers-region">
+  <h2>Suppliers by region</h2>
+  <div class="region-grid">
+    <div class="region-card">
+      <img src="images/icons/uae.svg" alt="UAE Flag">
+      <div>
+        <h4>Arabic Emirates</h4>
+        <p>shopname.ae</p>
+      </div>
+    </div>
+
+    <div class="region-card">
+      <img src="images/icons/aus.svg" alt="Australia Flag">
+      <div>
+        <h4>Australia</h4>
+        <p>shopname.ae</p>
+      </div>
+    </div>
+
+    <div class="region-card">
+      <img src="images/icons/usa.svg" alt="USA Flag">
+      <div>
+        <h4>United States</h4>
+        <p>shopname.ae</p>
+      </div>
+    </div>
+
+    <div class="region-card">
+      <img src="images/icons/russia.svg" alt="Russia Flag">
+      <div>
+        <h4>Russia</h4>
+        <p>shopname.ru</p>
+      </div>
+    </div>
+
+    <div class="region-card">
+      <img src="images/icons/italy.svg" alt="Italy Flag">
+      <div>
+        <h4>Italy</h4>
+        <p>shopname.it</p>
+      </div>
+    </div>
+
+    <div class="region-card">
+      <img src="images/icons/denmark.svg" alt="Denmark Flag">
+      <div>
+        <h4>Denmark</h4>
+        <p>denmark.com.dk</p>
+      </div>
+    </div>
+
+    <div class="region-card">
+      <img src="images/icons/france.svg" alt="France Flag">
+      <div>
+        <h4>France</h4>
+        <p>shopname.com.fr</p>
+      </div>
+    </div>
+
+    <div class="region-card">
+      <img src="images/icons/uae.svg" alt="UAE Flag">
+      <div>
+        <h4>Arabic Emirates</h4>
+        <p>shopname.ae</p>
+      </div>
+    </div>
+
+    <div class="region-card">
+      <img src="images/icons/china.svg" alt="China Flag">
+      <div>
+        <h4>China</h4>
+        <p>shopname.ae</p>
+      </div>
+    </div>
+
+    <div class="region-card">
+      <img src="images/icons/britain.svg" alt="UK Flag">
+      <div>
+        <h4>Great Britain</h4>
+        <p>shopname.co.uk</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
     <footer>
       <div class="newsletter">
         <h3>Subscribe On Our Newsletter</h3>
-        <p>Get daily news on upcoming offers from many suppliers all over the world</p>
+        <p>
+          Get daily news on upcoming offers from many suppliers all over the
+          world
+        </p>
         <form>
-          <input type="email" placeholder="Email" />
+          <input type="email" placeholder="Email" name="" id="" />
           <button type="submit">Subscribe</button>
         </form>
       </div>
-
       <div class="footer-main">
         <div class="footer-brand">
-          <img src="images/Brand/logo-colored.svg" alt="Brand" />
-          <p>Best information about the company goes here but now lorem ipsum is</p>
+          <img src="images/Brand/logo-colored.svg" alt="" />
+          <p>
+            Best information about the company gies here but now lorem ipsum is
+          </p>
           <div class="social-icons">
-            <a href="#"><img src="images/icons/facebook.svg" alt="Facebook" /></a>
-            <a href="#"><img src="images/icons/twitter.svg" alt="Twitter" /></a>
-            <a href="#"><img src="images/icons/linkedin.svg" alt="LinkedIn" /></a>
-            <a href="#"><img src="images/icons/instagram.svg" alt="Instagram" /></a>
-            <a href="#"><img src="images/icons/youtube.svg" alt="YouTube" /></a>
+            <a href="https://www.facebook.com/" target="_blank"
+              ><img src="images/icons/facebook.svg" alt=""
+            /></a>
+            <a href="https://x.com/" target="_blank"
+              ><img src="images/icons/twitter.svg" alt=""
+            /></a>
+            <a href="https://www.linkedin.com/" target="_blank"
+              ><img src="images/icons/linkedin.svg" alt=""
+            /></a>
+            <a href="https://www.instagram.com/" target="_blank"
+              ><img src="images/icons/instagram.svg" alt=""
+            /></a>
+            <a href="https://www.youtube.com/" target="_blank"
+              ><img src="images/icons/youtube.svg" alt=""
+            /></a>
           </div>
         </div>
-
         <div class="footer-links">
           <div>
             <h4>About</h4>
@@ -146,21 +526,20 @@
             <a href="#">Categories</a>
             <a href="#">Blogs</a>
           </div>
+
           <div class="stores">
             <h4>Get app</h4>
-            <img src="images/icons/app-store.svg" alt="App Store" />
-            <img src="images/icons/google-play.svg" alt="Google Play" />
+            <img src="images/icons/app-store.svg" alt="" />
+            <img src="images/icons/google-play.svg" alt="" />
           </div>
         </div>
       </div>
-
       <div class="footer-bottom">
         <p>@ 2023 Ecommerce.</p>
         <div class="lang-select">
-          <img src="images/icons/usa-flag.svg" alt="USA Flag" />
+          <img src="images/icons/usa-flag.svg" alt="" />
         </div>
       </div>
     </footer>
-  </div>
-</body>
+  </body>
 </html>
